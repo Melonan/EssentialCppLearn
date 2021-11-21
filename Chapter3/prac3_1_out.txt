@@ -1,0 +1,12 @@
+ago 1
+am 2
+ancestors 1
+apple 1
+bananas 1
+build 1
+chinese 1
+country 1
+guy. 1
+i 3
+is 1
+love 1

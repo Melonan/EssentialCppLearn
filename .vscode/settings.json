@@ -1,0 +1,16 @@
+{
+    "files.associations": {
+        "*.java": "bat",
+        "vector": "cpp",
+        "iostream": "cpp",
+        "algorithm": "cpp",
+        "xstring": "cpp",
+        "utility": "cpp",
+        "fstream": "cpp",
+        "xtree": "cpp",
+        "iterator": "cpp",
+        "string": "cpp",
+        "xlocale": "cpp",
+        "xlocinfo": "cpp"
+    }
+}
