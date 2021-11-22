@@ -24,7 +24,7 @@ void readWords(ifstream &in_file,  map<string, int>& mp, const set<string>& excl
 }
 
 
-void display(const map<string , int>& mp, ofstream& ofile)
+void display(const map<string , int>& mp, ofstream& o_file)
 {
 
     // for(auto pir : mp)
@@ -33,7 +33,7 @@ void display(const map<string , int>& mp, ofstream& ofile)
     // }
     for(auto it = mp.begin(); it!=mp.end(); it++)
     {
-        ofile << it -> first << " " << it -> second << endl;
+        o_file << it -> first << " " << it -> second << endl;
     }
 
 }

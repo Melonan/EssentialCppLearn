@@ -11,6 +11,8 @@
         "iterator": "cpp",
         "string": "cpp",
         "xlocale": "cpp",
-        "xlocinfo": "cpp"
+        "xlocinfo": "cpp",
+        "xutility": "cpp",
+        "iosfwd": "cpp"
     }
 }

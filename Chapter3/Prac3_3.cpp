@@ -74,12 +74,31 @@ void displayMap(ofstream& ofs, map<string , vector<string>>& mp)
         {
             ofs<<i<<" ";
         }
+        ofs<<endl;
     }
 
 
 
 }
+bool queryFamily(const string& familyName, map<string, vector<string>>& mp)
+{
+    if(mp.count(familyName) == 0)
+    {
+        cout<<"No this family" ; 
+        return false;
+    }
+    
+    for(auto now : mp[familyName])
+    {
+        cout<<now<<" ";
+    }
+    cout<<endl;
 
+    return true;
+
+
+
+}
 
 int main(int argc, char const *argv[])
 {
@@ -91,8 +110,12 @@ int main(int argc, char const *argv[])
     initMap(in_file, family);
 
     displayMap(out_file, family);
- 
-
+    
+    string familyName;
+    while(cout<< "Enter the Family you want to query: ", cin>>familyName )
+    {
+        queryFamily(familyName,family);
+    }
 
     return 0;
 }
